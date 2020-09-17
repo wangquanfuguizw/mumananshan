@@ -1,0 +1,96 @@
+/*导航栏*/
+.nav{
+    width: 100%;
+    height: 80px;
+    background: #845DFD;
+}
+.nav img{
+    margin-top: 20px;
+    margin-left: 14%;
+    float: left;
+}
+.nav ul{
+    width: 60%;
+    margin-left: 100px;
+    float: left;
+    margin-top: 11px;
+}
+.nav li{
+    float:left;
+    line-height: 58px;
+}
+.nav_fir{
+    width: 80px;
+    height: 58px;
+    text-align: center;
+    border-radius: 30px;
+}
+.nav_sec{
+    width: 124px;
+    height: 58px;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 49px;
+}
+.nav a{
+    font-size: 20px;
+    color: #ffffff;
+}
+.nav li:hover {
+    background: #00cdc5;
+    color: #845DFD;
+}
+/*banner图*/
+.banner{
+    width: 100%;
+    height: 520px;
+}
+.banner img{
+    width: 100%;
+    margin-top: -47px;
+}
+/*国家级*/
+.con_title h2{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.left_con , .right_con{
+    width: 510px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 272px;
+    margin-top: 28px;
+}
+.left_con{
+    margin-right: 170px;
+}
+.left_con div{
+    float: left;
+    width: 303px;
+    height: 273px;
+    border-radius: 20px;
+    background: #4cb9ff;
+}
+.right_con div{
+    float: right;
+    width: 303px;
+    height: 273px;
+    border-radius: 20px;
+    background: #4cb9ff;
+}
+.con_connect{
+    width: 1200px;
+    height: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*底部*/
+.bottom{
+    height: 201px;
+    width: 100%;
+    background: #455a6c;
+    margin-top: 203px;
+}

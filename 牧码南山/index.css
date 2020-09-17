@@ -1,0 +1,340 @@
+body{
+    width: 100%;
+    height: 5500px;
+    background: url("image/背景.png") no-repeat;
+}
+/*导航栏*/
+.nav_menu{
+    width: 100%;
+    height: 730px;
+    background: url("image/banner.png") no-repeat;
+    position: relative;
+}
+.nav_menu img{
+    margin-top: 25px;
+    float: left;
+    margin-left: 25%;
+}
+.menu_list{
+    height: 40px;
+    float:left;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-right: 10%;
+}
+.nav_menu li{
+    float: left;
+    margin-left: 20px;
+}
+.nav_fir{
+    width: 60px;
+    height: 40px;
+    text-align: center;
+}
+.nav_sec{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+}
+.nav_fir a, .nav_sec a{
+    color: white;
+    font-size: 17px;
+    line-height: 40px;
+}
+.nav_menu li:hover{
+    background: #00CCC4;
+    border-radius: 40px;
+}
+.nav_tir{
+    width: 220px;
+    height: 60px;
+    background: #18C1EC;
+    position:absolute;
+    left: 26%;
+    top: 460px;
+    border: 1px solid #27A2D1;
+    border-radius: 40px;
+    text-align: center;
+}
+.nav_tir a{
+    line-height: 60px;
+    color: white;
+    font-size: 28px;
+}
+.team_build{
+    width: 100px;
+    text-align: center;
+    height: 150px;
+    display: none;
+}
+.team_build li{
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+.menu_list li:hover .team_build{
+    display:block;
+}
+/*团队简介*/
+.introduction{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro_title{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro_title h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.intro_title p{
+    text-align: center;
+    font-size: 18px;
+}
+.intro_connect{
+    margin-top: 20px;
+    width:1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro_connect dt, .intro_connect dd{
+    float: left;
+}
+.intro_connect dd{
+    margin-top: 20px;
+    width: 600px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.gou{
+    display: inline-block;
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    background: #37A1C8;
+    margin-right: 20px;
+    font-size: 17px;
+}
+.intro_connect dd p{
+    margin-left: 45px;
+    color: #666666;
+    font-size: 16px;
+    margin-top: 6px;
+    font-weight: normal;
+}
+.intro_connect dd li{
+    margin-top:20px;
+}
+/*核心成员*/
+.members{
+    width:100%;
+    overflow: hidden;
+}
+.members_title h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.members_connect{
+    width: 1520px;
+    margin-top: 40px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.members_list{
+    width: 300%;
+    height: 450px;
+    position: absolute;
+}
+.members_list div{
+    position:relative;
+    width: 410px;
+    height: 450px;
+    float: left;
+    margin-left: 81px;
+    transition: all 0.8s;
+}
+.members_list div a{
+    position:absolute;
+    width:410px;
+    text-align: center;
+    top: 270px;
+}
+.members_list div a h2{
+    color: black;
+    font-size: 28px;
+}
+.members_list div a p{
+    margin-top: 15px;
+    color:#666666;
+    font-size: 20px;
+    font-weight: bold;
+}
+.members_list div:hover{
+    margin-top: 20px;
+}
+.members_btns{
+    margin: 40px auto 160px auto;
+    width:180px;
+}
+.members_btns span{
+    width: 25px;
+    height: 25px;
+    background: #C3EAFE;
+    border-radius: 50%;
+    float: left;
+    margin-left: 27px;
+    cursor: pointer;
+}
+.members_btns .on{
+    background: #3BBBFD;
+}
+/*发展路线*/
+.load h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.load img{
+    width:100%;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+/*主体活动*/
+.activity{
+    width:1520px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.act_title h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.act_connect {
+    margin-top: 100px;
+    height:550px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.act_connect div{
+    width:300px;
+    height:370px;
+    border: 1px solid #DCDCDC;
+    border-radius: 40px;
+    box-shadow: 2px 3px 50px 13px #E6E6E6;
+    float: left;
+    background: white;
+    margin-left: 150px;
+    transition: all 0.8s;
+}
+.act_connect div:hover{
+    width: 310px;
+    height: 380px;
+}
+.act_connect dl{
+    text-align: center;
+}
+.act_connect dt{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.act_connect dd{
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.act_connect h2{
+    margin-bottom: 10px;
+    color: #333333;
+}
+.act_connect p{
+    color: #6B6B6B;
+}
+.act_connect img{
+    width:100%;
+}
+.act_bottom{
+    margin-top: 60px;
+    transition: all 0.8s;
+}
+/*技术领域*/
+.tech_title h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.tech_connect {
+    width: 1400px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.tech_connect li{
+    width: 200px;
+    height:232px;
+    float:left;
+    text-align: center;
+    margin-left: 198px;
+    margin-top: 10px;
+}
+.tech_connect h2{
+    font-size: 19px;
+}
+/*加入我们*/
+.enter_us{
+    width: 100%;
+}
+.enter_title h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.enter_connect{
+    margin-top: 50px;
+    background: url("image/底部背景.png") no-repeat;
+    height: 900px;
+}
+.enter_word{
+    padding-top: 100px;
+    width: 710px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.enter_word p{
+    font-size: 23px;
+    color:white;
+    line-height: 70px;
+    text-align: center;
+}
+.enter_word div{
+    width:300px;
+    height:100px;
+    background: #6687E7;
+    text-align: center;
+    line-height: 100px;
+    font-size: 28px;
+    color:white;
+    border-radius: 60px;
+    margin-top: 100px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.enter_word h2{
+    margin-top: 240px;
+    text-align: center;
+    font-size: 70px;
+    font-weight: normal;
+    color: white;
+}

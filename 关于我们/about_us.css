@@ -1,0 +1,150 @@
+/*导航栏*/
+.nav{
+    width: 100%;
+    height: 80px;
+    background: #845DFD;
+}
+.nav img{
+    margin-top: 20px;
+    margin-left: 14%;
+    float: left;
+}
+.nav ul{
+    width: 60%;
+    margin-left: 100px;
+    float: left;
+    margin-top: 11px;
+}
+.nav li{
+    float:left;
+    line-height: 58px;
+}
+.nav_fir{
+    width: 80px;
+    height: 58px;
+    text-align: center;
+    border-radius: 30px;
+}
+.nav_sec{
+    width: 124px;
+    height: 58px;
+    text-align: center;
+    margin-left: 15px;
+    border-radius: 49px;
+}
+.nav a{
+    font-size: 20px;
+    color: #ffffff;
+}
+.nav li:hover{
+    background: #00cdc5;
+    color: #845DFD;
+}
+/*banner图*/
+.banner{
+    width: 100%;
+    height: 520px;
+}
+.banner img{
+    width: 100%;
+    margin-top: -47px;
+}
+/*指导教师*/
+.tea_title h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.tea_connect{
+    width: 1000px;
+    height: 376px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 227px;
+}
+.tea_connect dt{
+    float: left;
+    width: 300px;
+}
+.tea_connect dd{
+    float: left;
+    width: 600px;
+    margin-top: 40px;
+    margin-left: 67px;
+}
+.tea_connect h2{
+    margin-bottom: 34px;
+    font-weight: normal;
+    font-size: 24px;
+    color:#333333;
+}
+/*团队合照*/
+.team_title h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.team_connect{
+    width: 965px;
+    margin: 20px auto 93px auto;
+}
+/*负责人介绍*/
+.leading{
+    width: 1520px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lea_title h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.lea_connect{
+    width:1400px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 600px;
+}
+.lea_intro{
+    width: 320px;
+    text-align: center;
+    float: left;
+    margin-left: 107px;
+    margin-top: 54px;
+}
+.lea_intro p{
+    font-size: 24px;
+    color:#666666;
+}
+.lea_intro h2{
+    font-size: 30px;
+    color: #333333;
+}
+/*学习情况*/
+.stu_title h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.stu_connect{
+    width:1254px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 87px;
+}
+/*各年级获奖比例*/
+.pri_title h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+}
+.pri_connect{
+    width:1071px;
+    margin: 53px auto 113px auto;
+}
+/*底部*/
+.bottom{
+    height: 117px;
+    width: 100%;
+    background: #455a6c;
+}

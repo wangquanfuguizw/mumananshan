@@ -1,0 +1,49 @@
+body{
+    height: 1900px;
+    background: darkturquoise;
+}
+/*导航栏*/
+.nav_menu{
+    width: 100%;
+    height: 80px;
+    background: white;
+}
+.nav_menu ul{
+    margin-left: 45%;
+}
+.nav_menu li{
+    float: left;
+    margin-left: 20px;
+}
+.nav_fir{
+    width: 60px;
+    text-align: center;
+}
+.nav_sec{
+    width: 80px;
+    text-align: center;
+}
+.nav_fir a, .nav_sec a{
+    color: #52A8D5;
+    font-size: 20px;
+    line-height: 80px;
+}
+.selected{
+    background: #52A8D5;
+}
+.selected a{
+    color: white;
+}
+/*banner图*/
+.content{
+    width: 100%;
+    overflow: hidden;
+}
+.banner {
+    width: 500%;
+}
+.banner img{
+    margin-top: -20px;
+    width: 20%;
+    float: left;
+}

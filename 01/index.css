@@ -1,0 +1,10 @@
+*{
+    margin:0;
+    padding:0;
+}
+.toy{
+    width:200px;
+    height:200px;
+    border: black solid 1px;
+    margin-left: 200px;
+}
